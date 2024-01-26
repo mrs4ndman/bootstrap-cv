@@ -28,6 +28,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
 
+
 permissions:
   contents: write
   pages: write
