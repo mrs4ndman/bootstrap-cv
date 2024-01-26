@@ -1,24 +1,13 @@
-// 
-// Styles
-// 
-
-// Import variables
-@import "./variables.scss";
+// Import Variables
+@import "variables";
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
-// Global CSS
-@import "./global.scss";
+// Import Global Theme Styles
+@import "global";
+@import "utilities";
 
-// Components
-@import "./components/navbar.scss";
-@import "./components/buttons.scss";
-
-// Sections
-@import "./sections/masthead.scss";
-@import "./sections/about.scss";
-@import "./sections/projects.scss";
-@import "./sections/signup.scss";
-@import "./sections/contact.scss";
-@import "./sections/footer.scss";
+// Import Custom Component Styles
+@import "components/feature";
+@import "components/profile";

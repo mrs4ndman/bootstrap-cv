@@ -1,16 +1,7 @@
-// 
-// Global theme styling
-// 
+// Global styling for entire theme
 
-// Scroll padding for all scroll targets on page used with
-// native CSS smooth scrolling
-// 
-// https://caniuse.com/?search=scroll-padding
-
+// Resets for body and html height for sticky footer
+body,
 html {
-    scroll-padding-top: calc(4.5rem - 1px);
-}
-
-body {
-    letter-spacing: $base-letter-spacing;
+    height: 100%;
 }
